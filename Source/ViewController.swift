@@ -9,4 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+    let loader = JSONFileLoader(fileName: "example")
+
+    print(loader.load())
+  }
 }
