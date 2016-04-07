@@ -11,7 +11,7 @@ import Foundation
 struct JSONFileLoader {
   let fileName: String
 
-  func load() -> [AnyObject]? {
+  func load() -> AnyObject? {
 
     if let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "json") {
       // Attempt to convert the JSON file to an NSData object
@@ -26,7 +26,7 @@ struct JSONFileLoader {
         //
         // `po String(data:data, encoding: NSUTF8StringEncoding)`
         do {
-          return try NSJSONSerialization.JSONObjectWithData(data, options: []) as? [AnyObject]
+          return try NSJSONSerialization.JSONObjectWithData(data, options: [])
         }
 
         catch {
