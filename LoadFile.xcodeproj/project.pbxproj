@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361E2B7F1CB6A24F0079EC92 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 361E2B7E1CB6A24F0079EC92 /* example.json */; };
 		36ED14BA1CB69CBD0054ED37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED14B91CB69CBD0054ED37 /* AppDelegate.swift */; };
 		36ED14BC1CB69CBD0054ED37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED14BB1CB69CBD0054ED37 /* ViewController.swift */; };
 		36ED14BF1CB69CBD0054ED37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ED14BD1CB69CBD0054ED37 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361E2B7E1CB6A24F0079EC92 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 		36ED14B61CB69CBC0054ED37 /* LoadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ED14B91CB69CBD0054ED37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36ED14BB1CB69CBD0054ED37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				36ED14C01CB69CBD0054ED37 /* Assets.xcassets */,
 				36ED14C21CB69CBD0054ED37 /* LaunchScreen.storyboard */,
 				36ED14BD1CB69CBD0054ED37 /* Main.storyboard */,
+				361E2B7E1CB6A24F0079EC92 /* example.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361E2B7F1CB6A24F0079EC92 /* example.json in Resources */,
 				36ED14C41CB69CBD0054ED37 /* LaunchScreen.storyboard in Resources */,
 				36ED14C11CB69CBD0054ED37 /* Assets.xcassets in Resources */,
 				36ED14BF1CB69CBD0054ED37 /* Main.storyboard in Resources */,
